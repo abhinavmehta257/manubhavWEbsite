@@ -1,0 +1,4 @@
+Sitemap: https://manubhavtamta.com/sitemap.xml
+User-Agent: *
+Allow: /
+
