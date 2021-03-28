@@ -1,7 +1,7 @@
 @font-face {
     font-family: OPTIBodoni-Antiqua;
     font-weight: bold;
-    src: url("C:\\Users\\Anand Mehta\\Desktop\\side project\\manubhav\\assets\\OPTIBodoni-Antiqua.otf") format("opentype");
+    src: url("..\\webfonts\\OPTIBodoni-Antiqua.otf") format("opentype");
 }
 
 #nameTypingEffect{
@@ -162,6 +162,7 @@ header {
 	-ms-background-size:cover;
     min-height: 765px;
 	position: relative;
+    background-attachment: fixed;
 }
 .banner-layer {
     background: url(../images/manubhav-tamta-layer.png) repeat;
@@ -384,10 +385,10 @@ h3.heading {
 /*--  services --*/
 .services {
     /* background: #191919; */
-        background-image: url("../images/manubhav-tamta-bg3.jpg") ;
+        background: url("../images/manubhav-tamta-bg3.jpg") center ;
         background-repeat: no-repeat;
         background-size: cover;
-    
+        background-attachment: fixed;
 }
 .service-grids {
     margin-top: 5em;
@@ -464,10 +465,10 @@ h3.heading {
      background: #222;
 }
 .experience{
-    background-image: url("../images/manubhav-tamta-test.jpeg") ;
+    background: url("../images/banner3.jpg") center ;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 /*-- //experience --*/
